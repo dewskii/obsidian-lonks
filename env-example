@@ -1,0 +1,3 @@
+# Rename this file to .env, 
+# Replace and add your vault's path
+DEPLOY_DIR="Replace me!"

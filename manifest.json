@@ -1,0 +1,10 @@
+{
+	"id": "lonks",
+	"name": "Lonks",
+	"version": "0.2.3",
+	"minAppVersion": "0.15.0",
+	"description": "Automatically suggest and create internal links when typing matching note names",
+	"author": "Eric Dew",
+	"authorUrl": "https://github.com/dewskii/",
+	"isDesktopOnly": true
+}

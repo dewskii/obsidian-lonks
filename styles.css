@@ -1,0 +1,29 @@
+/* Lonks Plugin Styles */
+
+/* 
+ * The plugin uses Obsidian's native EditorSuggest API which automatically
+ * inherits the native suggestion styling. Minimal custom styles below.
+ */
+
+/* Scrollbar styling for suggestion list */
+.suggestion-container::-webkit-scrollbar {
+	width: 6px;
+}
+
+.suggestion-container::-webkit-scrollbar-thumb {
+	background-color: var(--background-modifier-border);
+	border-radius: 3px;
+}
+
+.suggestion-container::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.cm-tooltip-autocomplete > ul::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.cm-tooltip-autocomplete > ul::-webkit-scrollbar-thumb {
+	background-color: var(--scrollbar-thumb-bg);
+	border-radius: 3px;
+}
